@@ -1,0 +1,48 @@
+Creare la struttura di una tabella per i
+seguenti casi, cercando di inserire tipi di
+dato diversi e coerenti con il caso d’uso:
+
+ ● Una tabella per salvare i dati di
+giocatori di una squadra di basket
+
+Table: Players
+
+Colonne:
+
+- ID - PRIMARY KEY | NOT NULL | AUTO INCREMENT | UNIQUE
+
+- Squadra - VARCHAR(30)
+
+- Campionato - VARCHAR(5)
+
+- Nome - VARCHAR(15) | NOT NULL
+
+- Cognome - VARCHAR(15) | NOT NULL
+
+- Nazionalità - VARCHAR(5)
+
+- Età - TINYINT
+
+- Altezza - FLOAT (5, 2)
+
+- Peso - FLOAT (5, 2)
+
+- Ranking - TINYINT
+
+- Numero - TINYINT
+
+- Ruolo - VARCHAR(15)
+
+- Partite - TINYINT
+
+- Punti - TINYINT
+
+- Rimbalzi - FLOAT (4, 2)
+
+- Assists - FLOAT (4, 2)
+
+- % 2 Punti - FLOAT (4, 2)
+
+- % 3 Punti - FLOAT (4, 2)
+
+- Minuti - FLOAT (5, 1)
